@@ -21,7 +21,7 @@
 # wpboot
 
 [WPboot](https://github.com/topazdom/wpboot) is A Free and OpenSource Lightweight CLI app to bootstrap WordPress Theme and Plugin Development created by @zaghadon.
-This repository is the official repository for `wpboot`.
+This repository is the official repository for `wpboot` and a continuation of the previous [Themeboot](https://github.com/zaghadon/themeboot) project.
 
 ## Why wpboot
 
@@ -87,6 +87,7 @@ Manually export wpboot binary to your PATH to make it available globally by:
 **Simple Usage:**
 
 Change Directory to the theme or plugin Folder of your wordpress installation.
+
     `cd **/wp-content/themes/` OR  `cd **/wp-content/plugins/`.
     ___________
     FOR THEME
