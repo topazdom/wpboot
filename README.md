@@ -27,7 +27,7 @@ This repository is the official repository for `wpboot` and a continuation of th
 
 I build Plugins and Themes as a freelancer for different people and want to quickly start off with a simple project scaffold that is why I created wpboot, to help me start a new project easily by simply supplying the details of the Project and Initializing it in a boilerplate; if you use it and you like it, Just send me your project link let me list it on the `Created with`. Thank you <3
 
-### Getting Started
+# Getting Started
 
 You'll need `php-cli`, [Composer](https://getcomposer.org/) and A local [WordPress](https://wordpress.org) installation to get started.
 
@@ -105,18 +105,18 @@ Change Directory to the theme or plugin Folder of your wordpress installation.
     `wpboot plugin` make sure you provide accurate plugin folder name in the Text Domain Field as this would be used programmatically to help you follow accordingly with the WordPress Naming Standards.
 
 
-#### Contributing
+# Contributing
 
 Contributions are very welcome! You can contribute with code, documentation, filing issues...
 
-##### TO DO
+# TO DO
 
 *   Plan and Write Unit Tests for testing the commands.
 *   Enforce compliance during inputs, by validating inputs and securing users against themselves.
 *   Help Share to many WordPress Developers communities.
 *   Star and Watch to keep up with the evoluton.
 
-###### Credits
+# Credits
 
 * WP Theme Scaffold created by @krafthaus_ is based on Underscores http://krafthaus.co.id/, (C) 2012-2016 Automattic, Inc.
 Underscores is distributed under the terms of the GNU GPL v2 or later.
@@ -127,7 +127,7 @@ A standardized, organized, object-oriented foundation for building high-quality 
 * [Minicli](https://github.com/minicli/minicli) is an experimental dependency-free toolkit for building CLI-centric applications in PHP.
 Minicli was created as [an educational experiment](https://dev.to/erikaheidi/bootstrapping-a-cli-php-application-in-vanilla-php-4ee) and a way to go dependency-free when building simple command-line applications in PHP. It can be used for microservices, personal dev tools, bots and little fun things.
 
-###### Created with WPboot
+# Created with WPboot
 
 - [Themester](https://github.com/topazdom/themester) - a Multipurpose WordPress Theme for building beautiful dynamic websites (Under Development).
 - [BizList](https://github.com/topazdom/bizlist) - a Business Listing Plugin for Leads, Directory Listing Prefill and etc. Finds Businesses By Scrapping Google Businesses, Local Directories and Social Medias.
