@@ -1,0 +1,34 @@
+#!/usr/bin/php
+<?php
+
+if (php_sapi_name() !== 'cli') {
+    echo "You can't run this app from the web, only CLI is allowed";
+    exit;
+}
+
+require __DIR__ . '/vendor/autoload.php';
+
+use Minicli\App;
+use Povils\Figlet\Figlet;
+
+$figlet = new Figlet();
+
+$figlet
+    ->setFont('big')
+    ->setFontColor('red');
+    //->setBackgroundColor('blue');
+
+$signature = $figlet->render('WPBoot CLI');
+
+$app = new App([
+    'app_path' => __DIR__ . '/app/Command'
+]);
+$app->setSignature($signature); 
+
+$app->runCommand($argv);
+$app->getPrinter()->error("FREE and OpenSource CLI tool to quickly bootstrap WordPress Theme and Plugin Development.");
+$app->getPrinter()->newline();
+$app->getPrinter()->out("Usage:  wpboot help (to view available commands and detailed usage instructions)");
+$app->getPrinter()->info("Usage:  wpboot theme or wpboot plugin (to begin a new project). \n        Make sure to provide a `folder` paramenter, e.g `folder=projectname` if Running \n        from the Theme Directory.");
+$app->getPrinter()->newline();
+$app->getPrinter()->newline();

@@ -1,0 +1,57 @@
+{
+  "name": "topazdom/wpboot",
+  "description": "A Free and OpenSource Lightweight CLI tool to quickly bootstrap WordPress Theme and Plugin Development",
+  "authors": [
+    {
+      "name": "Nzagha David Eze",
+      "email": "nzaghad@topazdom.com",
+      "homepage": "https://nzaghadavid.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Topazdom Technologies Limited",
+      "email": "contact@topazdom.com",
+      "homepage": "https://topazdom.com",
+      "role": "Publisher"
+    }
+  ],
+  "license": "GPL-3.0-or-later",
+  "homepage": "https://github.com/topazdom/wpboot",
+  "keywords": [
+    "cli",
+    "command-line",
+    "template",
+    "WordPress",
+    "WP",
+    "Theme",
+    "Plugin",
+    "Developer",
+    "Development",
+    "WordPress Theme Developemt",
+    "WordPress Plugin Developemt",
+    "WordPress Theme Boilerplate",
+    "WordPress Plugin Boilerplate"
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Helpers/helpers.php"
+    ]
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "minicli/minicli": "^2.0",
+    "povils/figlet": "^1.0.0",
+    "symfony/filesystem": "^5.1"
+  },
+  "bin": "wpboot",
+  "scripts": {
+    "post-install-cmd": [
+      "wpboot"
+    ]
+  }
+}
