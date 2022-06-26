@@ -1001,16 +1001,16 @@
         },
         {
             "name": "topazdom/figleti",
-            "version": "v2.0.2",
+            "version": "v2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/topazdom/figleti.git",
-                "reference": "1d17610ce4a5605b0bd8776e6dae08791da6f86b"
+                "reference": "0d473a5eb95396673904db85d72f13c9969a721a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/topazdom/figleti/zipball/1d17610ce4a5605b0bd8776e6dae08791da6f86b",
-                "reference": "1d17610ce4a5605b0bd8776e6dae08791da6f86b",
+                "url": "https://api.github.com/repos/topazdom/figleti/zipball/0d473a5eb95396673904db85d72f13c9969a721a",
+                "reference": "0d473a5eb95396673904db85d72f13c9969a721a",
                 "shasum": ""
             },
             "require": {
@@ -1037,12 +1037,12 @@
             ],
             "authors": [
                 {
-                    "name": "Povilas Susinskas",
-                    "email": "povilassusinskas@gmail.com"
-                },
-                {
                     "name": "Topazdom Technologies Ltd.",
                     "email": "contact@topazdom.com"
+                },
+                {
+                    "name": "Povilas Susinskas",
+                    "email": "povilassusinskas@gmail.com"
                 }
             ],
             "description": "Figlet text generator - PHP",
@@ -1054,9 +1054,9 @@
                 "text"
             ],
             "support": {
-                "source": "https://github.com/topazdom/figleti/tree/v2.0.2"
+                "source": "https://github.com/topazdom/figleti/tree/v2.0.3"
             },
-            "time": "2022-06-26T14:43:33+00:00"
+            "time": "2022-06-26T15:29:41+00:00"
         }
     ],
     "packages-dev": [],

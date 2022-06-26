@@ -47,6 +47,7 @@
     "symfony/filesystem": "^5.1",
     "topazdom/figleti": "^2.0"
   },
+  "config": { "platform-check": false },
   "bin": "wpboot",
   "scripts": {
     "post-install-cmd": [
