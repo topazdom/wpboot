@@ -741,16 +741,16 @@
         },
         {
             "name": "topazdom/figleti",
-            "version": "2.0.0",
+            "version": "v2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/topazdom/figleti.git",
-                "reference": "09f7bafb4ec68f3439bf5c2660d26f15bbb0121c"
+                "reference": "f43ae3405adba4f53bd16c797cbd671f2b769bb6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/topazdom/figleti/zipball/09f7bafb4ec68f3439bf5c2660d26f15bbb0121c",
-                "reference": "09f7bafb4ec68f3439bf5c2660d26f15bbb0121c",
+                "url": "https://api.github.com/repos/topazdom/figleti/zipball/f43ae3405adba4f53bd16c797cbd671f2b769bb6",
+                "reference": "f43ae3405adba4f53bd16c797cbd671f2b769bb6",
                 "shasum": ""
             },
             "require": {
@@ -794,9 +794,9 @@
                 "text"
             ],
             "support": {
-                "source": "https://github.com/topazdom/figleti/tree/v2.0.0"
+                "source": "https://github.com/topazdom/figleti/tree/v2.0.1"
             },
-            "time": "2022-06-26T13:50:33+00:00"
+            "time": "2022-06-26T14:32:03+00:00"
         }
     ],
     "packages-dev": [],
