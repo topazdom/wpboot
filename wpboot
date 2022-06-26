@@ -6,10 +6,10 @@ if (php_sapi_name() !== 'cli') {
     exit;
 }
 
-if (file_exists(__DIR__.'/../../../autoload.php')) {
-    require __DIR__.'/../../../autoload.php';
+if (file_exists('vendor/autoload.php')) {
+    require_once 'vendor/autoload.php';
 } else {
-    require __DIR__.'/../vendor/autoload.php';
+    require_once __DIR__.'/../../autoload.php';
 }
 
 use Minicli\App;
