@@ -6,7 +6,7 @@ if (php_sapi_name() !== 'cli') {
     exit;
 }
 
-include __DIR__ . '/vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use Minicli\App;
 use Topazdom\Figlet\Figlet;
