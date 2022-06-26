@@ -9,7 +9,7 @@ if (php_sapi_name() !== 'cli') {
 require __DIR__ . '/vendor/autoload.php';
 
 use Minicli\App;
-use Povils\Figlet\Figlet;
+use Topazdom\Figlet\Figlet;
 
 $figlet = new Figlet();
 

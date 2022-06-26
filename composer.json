@@ -45,9 +45,8 @@
   "prefer-stable": true,
   "require": {
     "minicli/minicli": "^2.0",
-    "povils/figlet": "^1.0.0",
     "symfony/filesystem": "^5.1",
-    "symfony/console": "^3.0"
+    "topazdom/figleti": "^2.0"
   },
   "bin": "wpboot",
   "scripts": {
